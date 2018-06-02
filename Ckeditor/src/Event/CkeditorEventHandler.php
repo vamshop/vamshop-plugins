@@ -1,6 +1,6 @@
 <?php
 
-namespace Croogo\Ckeditor\Event;
+namespace Ckeditor\Event;
 
 use Cake\Core\Configure;
 use Cake\Event\EventListenerInterface;
@@ -10,7 +10,7 @@ use Croogo\Core\Croogo;
  * Ckeditor Event Handler
  *
  * @category Event
- * @package  Croogo.Ckeditor
+ * @package  Ckeditor
  * @license  http://www.opensource.org/licenses/mit-license.php The MIT License
  * @link     http://www.croogo.org
  */
@@ -43,7 +43,7 @@ class CkeditorEventHandler implements EventListenerInterface
             $action = base64_decode($action);
             $action = explode('/', $action);
             array_pop($action);
-            Croogo::hookHelper(implode('/', $action), 'Croogo/Ckeditor.Ckeditor');
+            Croogo::hookHelper(implode('/', $action), 'Ckeditor.Ckeditor');
         }
     }
 

@@ -1,5 +1,5 @@
 {
-    "name": "croogo/ckeditor",
+    "name": "vamshop/Ckeditor",
     "type": "cakephp-plugin",
     "description": "Integrate Ckeditor with Croogo",
     "homepage": "http://github.com/croogo/ckeditor",
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Croogo\\Ckeditor\\": "src"
+            "Ckeditor\\": "src"
         }
     }
 }

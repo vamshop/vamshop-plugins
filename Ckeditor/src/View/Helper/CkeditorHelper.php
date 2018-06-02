@@ -1,6 +1,6 @@
 <?php
 
-namespace Croogo\Ckeditor\View\Helper;
+namespace Ckeditor\View\Helper;
 
 use Cake\Core\App;
 use Cake\Core\Configure;
@@ -53,8 +53,8 @@ class CkeditorHelper extends Helper
         $this->actions = array_keys(Configure::read('Wysiwyg.actions'));
         $action = Router::getActionPath($this->request, true);
         if (!empty($this->actions) && in_array($action, $this->actions)) {
-            $this->Html->script('Croogo/Ckeditor.wysiwyg', ['block' => true]);
-            $this->Html->script('Croogo/Ckeditor.ckeditor', ['block' => true]);
+            $this->Html->script('Ckeditor.wysiwyg', ['block' => true]);
+            $this->Html->script('Ckeditor.ckeditor', ['block' => true]);
 
             $ckeditorActions = Configure::read('Wysiwyg.actions');
             if (!isset($ckeditorActions[$action])) {

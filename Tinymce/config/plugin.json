@@ -1,0 +1,14 @@
+{
+	"name" : "TinyMCE",
+	"description" : "Integrates TinyMCE WYSIWYG editor into VamShop",
+
+	"author" : "Alexander Menovchicov",
+	"authorEmail" : "vamshop@gmail.com",
+	"authorUrl" : "http://vamshop.com",
+
+	"dependencies": {
+		"plugins": [
+			"Croogo/Wysiwyg"
+		]
+	}
+}

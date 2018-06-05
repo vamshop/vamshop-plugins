@@ -1,0 +1,8 @@
+{
+  "name": "MaterializeCSS plugin for CakePHP",
+  "version": "0.0.1",
+  "dependencies": {
+    "materialize": "*",
+    "roboto-fontface" : "*"
+}
+}

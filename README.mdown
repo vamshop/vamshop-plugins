@@ -1,2 +1,0 @@
-# vamshop-plugins
-VamShop Plugins
